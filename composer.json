@@ -1,0 +1,20 @@
+{
+  "name": "pkg6/pay",
+  "description": "A collection of pay packages",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhiqiang",
+      "email": "zhiqiang2033@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pkg6\\Pay\\": "src/"
+    }
+  }
+}
